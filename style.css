@@ -460,9 +460,9 @@ h1 {
     }
 
     #text-div #content-left-p {
-        width: 80vw;
+        width: 60vw;
         font-size: 20px;
-        background:red;
+        background-color:red;
     }
 
 
