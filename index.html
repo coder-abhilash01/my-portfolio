@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+</head>
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+    integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+    <div id="container">
+
+
+        <nav id="header">
+            <div id="logo-content">
+
+                <h1>ABHILASH TIWARI</h1>
+            </div>
+
+            <div id="list-items">
+                <i class="fa-solid fa-circle-xmark" id="sidebar-logo-delete"></i>
+                <ul>
+                    <a href="#" class="active">
+                        <li>Home</li>
+                    </a>
+                    <a href="#about-section">
+                        <li>About</li>
+                    </a>
+                    <a href="#project-section">
+                        <li>Projects</li>
+                    </a>
+                    <a href="#contact-section">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </div>
+
+            <i class="fa-solid fa-bars" id="sidebar-logo"></i>
+        </nav>
+
+        <div id="moving-circle"></div>
+        <section id="content">
+
+            <div id="text-div">
+                <p>Hello, it's me Abhilash</p>
+
+                <div id="content-left-p">a<span id="content-left-span">Frontend Developer..</span></div>
+                <p id="content-intro"> I’m a self-taught developer passionate about creating clean, responsive designs
+                    and interactive web experiences.
+                    Feel free to explore my portfolio and get in touch to discuss your project needs.
+
+                </p>
+
+                <div id="icons-wrap">
+
+                    <div id="social-icons">
+                        <a href="https://www.linkedin.com/in/abhilash-tiwari-a25445215/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                        <a href="https://github.com/coder-abhilash01?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+                    </div>
+                    <div id="hire-btn-box">
+                        <button id="download-cv-btn">DOWNLOAD CV <i class="fa-solid fa-download"></i></button>
+                        <a href="#contact-section"><button id="hire-btn">HIRE ME</button></a>
+                    </div>
+                </div>
+            </div>
+            <div id="content-img-right">
+                <div id="content-img"> <img src="images\myImg.jpeg"> </div>
+            </div>
+
+        </section>
+    </div>
+
+    </div>
+
+    <!-- About section -->
+
+    <section id="about-section">
+
+        <h1>About <span>Me</span></h1>
+
+        <div id="about-img">
+            <img src="images\myImg.jpeg">
+            <span id="spin-animation"></span>
+        </div>
+
+        <div id="about-me-main">
+            <div id="about-me-p"> <span>I’m a self-taught front-end developer and i have used various online resources and
+                hands-on
+                projects to get to this point in my career. Some of the resources I’ve used are FreeCodeCamp, LeetCode,
+                CodingOtt, YouTube tutorials,
+                W3Schools, and official documentation. I’ve worked on personal projects to
+                practice and improve my skills. I have a solid understanding of HTML, CSS, JavaScript, React, GSAP, Git,
+                GitHub, and RESTful APIs. I always push myself to improve and stay updated with the latest web
+                development
+                trends.</span>
+
+
+                <div id="skill-icons">
+                    <h2>TECHNOLOGY AND TECH TOOLS</h2><br>
+                    <div id="tools">
+                        <li> <i class="fa-brands fa-html5"></i> HTML5</li>
+                        <li><i class="fa-brands fa-css3-alt"></i>CSS3</li>
+                        <li><i class="fa-brands fa-js"></i>JS</li>
+                        <li><i class="fa-brands fa-react"></i>REACT</li>
+                        <li> <img src="https://static-00.iconduck.com/assets.00/tailwind-css-icon-2048x1229-u8dzt4uh.png"width="20px"> TAILWIND</li>
+                        <li><i class="bi bi-bootstrap"></i>BOOTSTRAP</li>
+                         <li>Redux-toolkit</li>
+                        <li><i class="fa-brands fa-git-alt"></i>GIT</li>
+                        <li><i class="fa-brands fa-github"></i>GIT HUB</li>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                         <li>MongoDB</li>
+                         
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+            <div id="about-me-btn">
+                <div id="btn">
+                    <button id="button1" onclick="myskill()">MY SKILL</button>
+                    <button id="button2" onclick="myExperience()">EXPERIENCE</button>
+                </div>
+                <div id="myskill-wrapper">
+                    <div id="skill-box">
+                        <span id="title">HTML</span>
+                        <div id="skill-bar">
+                            <span class="skill-per html"><span id="percentage">80%</span></span>
+
+                        </div>
+                    </div>
+                    <div id="skill-box">
+                        <span id="title">CSS</span>
+                        <div id="skill-bar">
+                            <span class="skill-per css "><span id="percentage">80%</span></span>
+
+                        </div>
+                    </div>
+                    <div id="skill-box">
+                        <span id="title">JS</span>
+                        <div id="skill-bar">
+                            <span class="skill-per js"><span id="percentage">70%</span></span>
+
+                        </div>
+                    </div>
+                    <div id="skill-box">
+                        <span id="title">REACT</span>
+                        <div id="skill-bar">
+                            <span class="skill-per react"><span id="percentage">55%</span></span>
+
+                        </div>
+                    </div>
+                    <div id="skill-box">
+                        <span id="title">TAILWIND</span>
+                        <div id="skill-bar">
+                            <span class="skill-per tailwind"><span id="percentage">40%</span></span>
+
+                        </div>
+                    </div>
+                    <div id="skill-box">
+                        <span id="title">BOOTSTRAP</span>
+                        <div id="skill-bar">
+                            <span class="skill-per bootstrap"><span id="percentage">40%</span></span>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- experiences -->
+                <div id="experience">
+                    <h1>Front-End Developer</h1>
+                    <span>Self-Taught / Personal Projects / freelance | 2022 - Present</span>
+                    <ul>
+                        <li>
+                            Started by building interactive web apps using JavaScript, HTML5, and CSS3, focusing on
+                            functionality and design.</li>
+                        <li> Mastered DOM manipulation, asynchronous JavaScript (Promises, async/await), and APIs for
+                            dynamic content.</li>
+                        <li>In 2023, worked with React.js to create single-page applications (SPAs) with reusable
+                            components and fast rendering.</li>
+                        <li>Gained expertise in responsive design to ensure smooth performance across mobile, tablet,
+                            and desktop devices.</li>
+                        <li>Used Git for version control to track code changes and collaborate with others.</li>
+                        <li> Developed strong problem-solving skills to debug and find solutions independently.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- project section..............// -->
+    <section id="project-section">
+
+        <div id="scroll-top">
+            <h1>PROJECT</h1>
+        </div>
+
+        <h2>MY PROJECT</h2>
+
+        <div id="project-display">
+            <div id="project-img">
+                <img src="images/moodyPlayer.jpeg">
+                
+                <div id="overlay-color">
+                    <a href="https://moody-player-ten.vercel.app/" target="_blank"><p>Moody Player  <i class="fa-solid fa-arrow-up-right-from-square"></i></p></a>
+                    <br>
+                    <span>Built a music player web app that uses face-api.js to detect a user's mood in real time and
+recommend songs</span>
+                </div>
+            </div>
+
+
+            <div id="project-img"><img src="images/Fokus.jpeg">
+                <div id="overlay-color">
+                    <a href="https://fokus-hackethon-website.vercel.app/" target="_blank">
+                    <p>Fokus(Coldrink Brand) <i class="fa-solid fa-arrow-up-right-from-square"></i></p></a>
+                    <span>Redesigned an influencer-led cold drink brand website with modern UI/UX and smooth animations.
+Developed during a hackathon conducted by Sheryians Coding School.</span>
+                </div>
+            </div>
+            <div id="project-img"><img src="images/photo-editor.jpeg">
+                <div id="overlay-color">
+                    <a href="https://coder-abhilash01.github.io/Photo-Editor/" target="_blank">
+                    <p>Photo-Craft <i class="fa-solid fa-arrow-up-right-from-square"></i></p></a>
+                    <span>Developed a lightweight photo editor with features like crop, flip, and beautify to enhance user images.</span>
+                </div>
+            </div>
+
+              <div id="project-img">
+                <img src="images/mystore.png">
+                <div id="overlay-color">
+                    <a href="https://coder-abhilash01.github.io/my-store/" target="_blank">
+                        <p>GROCERY STORE <i class="fa-solid fa-arrow-up-right-from-square"></i></p></a>
+                        <br>
+                    <span>Designed and developed a static grocery store website (not fully responsive for mobile)</span> 
+            </div>
+        </div>
+        <div id="scroll-bottom">
+            <h1>PROJECT</h1>
+        </div>
+    </section>
+
+    <section id="contact-section">
+        <h2>Let's Connect</h2>
+        <br>
+        <div id="form">
+            <label for="name"><i class="fa-regular fa-user"></i>Name: </label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">@ Email: </label>
+            <input type="email" id="email" name="email" required>
+            <label for="message"><i class="fa-regular fa-message"></i>Message:</label>
+            <textarea id="message" name="message" rows="1" required></textarea>
+            <button type="submit" id="form-submit"><i class="fa-solid fa-paper-plane"></i>Send Message</button>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div id="footer-items">
+            <p>© 2024 Abhilash Tiwari. All rights reserved.</p>
+            <div id="social-icons">
+                <i class="fa-brands fa-square-x-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <a href="https://github.com/coder-abhilash01?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
