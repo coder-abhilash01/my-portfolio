@@ -117,7 +117,8 @@ html {
     transition: 0.4s ease;
     width: 100%;
 }
-a{color:white}
+a{color:white;
+cursor: pointer;}
 
 
 
